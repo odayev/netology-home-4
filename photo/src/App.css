@@ -1,0 +1,73 @@
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+  background-image: url("./assets/kwadrat.jpg");
+  height: 100vh;
+  
+}
+
+
+.form {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  cursor: pointer;
+
+}
+
+input {
+  pointer-events: none;
+  display: none;
+}
+
+
+.form span {
+  margin: auto 0;
+  font-size: 20px;
+  color: gray;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px
+}
+
+.box {
+  width: 150px;
+  height: 130px;
+  background-color: #fff;
+  border: 1px solid gray;
+  position: relative
+}
+
+.delete {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+}
